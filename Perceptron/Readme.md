@@ -146,7 +146,9 @@ El método del perceptrón simple solo funciona para problemas sencillos y funci
 
 ## ¿Cómo funciona el Descenso del Gradiente?
 
+
 ### 1. La Superficie de Error (Función de Costo)
+![gradiente]()
 Imagina que el error de la red es una **montaña en 3D**:
 * Las coordenadas $(x, y)$ en el piso son los pesos ($w$) y el sesgo ($b$).
 * La altura de la montaña representa la **cantidad de error**.

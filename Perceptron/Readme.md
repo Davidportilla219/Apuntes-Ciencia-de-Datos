@@ -14,8 +14,7 @@ El **perceptrón** es la unidad de aprendizaje más simple en inteligencia artif
 * **Sesgo / Bias ($b$):** Un valor constante que permite desplazar la frontera de decisión, dándole flexibilidad a la neurona para activarse incluso si las entradas son cero.
 * **Suma Ponderada ($z$):**
   $$z = (x_1 \cdot w_1) + (x_2 \cdot w_2) + \dots + (x_n \cdot w_n) + b = \sum_{i=1}^{n} w_i x_i + b$$
-* **Función de Activación Escalón:**  $$
-y_{pred} = 
+* **Función de Activación Escalón:**  $$y_{pred} = 
 \begin{cases} 
 1 & \text{si } z \ge 0 \\ 
 0 & \text{si } z < 0 

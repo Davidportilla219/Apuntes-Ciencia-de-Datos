@@ -1,5 +1,7 @@
 # A. Guía Completa de Redes Neuronales: Del Perceptrón al Descenso del Gradiente
 
+![](https://raw.githubusercontent.com/adiacla/Apuntes-Ciencia-de-Datos/refs/heads/main/imagenes/perceptro.jpeg)
+
 Este repositorio contiene una explicación detallada, matemática y práctica sobre cómo aprenden las redes neuronales a través del ajuste de pesos ($w$), sesgos ($b$), el cálculo del error, la tasa de aprendizaje ($\eta$) y el descenso del gradiente. Además, incluye un análisis del notebook interactivo `Avanzada_Cuaderno_1_ANN_El_Perceptron.ipynb`.
 
 ---

@@ -15,13 +15,7 @@ El **perceptrón** es la unidad de aprendizaje más simple en inteligencia artif
 * **Suma Ponderada ($z$):**
   $$z = (x_1 \cdot w_1) + (x_2 \cdot w_2) + \dots + (x_n \cdot w_n) + b = \sum_{i=1}^{n} w_i x_i + b$$
 * **Función de Activación Escalón:**
-$$
-y =
-\begin{cases}
-1, & \text{si } z \geq 0 \\
-0, & \text{si } z < 0
-\end{cases}
-$$
+![step](https://raw.githubusercontent.com/adiacla/Apuntes-Ciencia-de-Datos/refs/heads/main/imagenes/step.png)
 ---
 
 ## 2. Reglas de Ajuste y Métricas de Error

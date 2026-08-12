@@ -136,3 +136,44 @@ for epoca in range(1, epocas + 1):
 
 print("="*65)
 print(f"ENTRENAMIENTO FINALIZADO: w1 = {w1:.2f}, w2 = {w2:.2f}, bias = {b:.2f}")
+```
+
+# El Salto al Descenso del Gradiente (Gradient Descent)
+
+El método del perceptrón simple solo funciona para problemas sencillos y funciones no continuas (de tipo sí/no). Para redes neuronales profundas con múltiples capas necesitaremos el **Descenso del Gradiente**.
+
+---
+
+## ¿Cómo funciona el Descenso del Gradiente?
+
+### 1. La Superficie de Error (Función de Costo)
+Imagina que el error de la red es una **montaña en 3D**:
+* Las coordenadas $(x, y)$ en el piso son los pesos ($w$) y el sesgo ($b$).
+* La altura de la montaña representa la **cantidad de error**.
+* **Tu objetivo:** Llegar al valle más bajo (**Mínimo Global**).
+
+---
+
+### 2. El Gradiente ($\nabla L$)
+Matemáticamente, la derivada (o gradiente) indica hacia dónde sube más rápido la pendiente.
+
+---
+
+### 3. El Descenso
+Para reducir el error, caminas en la dirección **opuesta** al gradiente:
+
+$$
+w_{nuevo} = w_{viejo} - \eta \cdot \frac{\partial \text{Error}}{\partial w}
+$$
+
+$$
+b_{nuevo} = b_{viejo} - \eta \cdot \frac{\partial \text{Error}}{\partial b}
+$$
+
+---
+
+### 4. La Tasa de Aprendizaje ($\eta$)
+La **tasa de aprendizaje** ($\eta$) equivale al **tamaño de tu paso** al bajar la montaña:
+
+* **Si es muy grande:** Podrías dar un salto tan largo que te pases el valle y subas por la otra pared de la montaña.
+* **Si es muy pequeña:** Te tomará miles de iteraciones llegar al fondo.

@@ -191,14 +191,12 @@ Las **funciones de activación** son las encargadas de transformar la suma ponde
 
 ## C. Función Escalón (Step Function)
 
+![](https://raw.githubusercontent.com/adiacla/Apuntes-Ciencia-de-Datos/refs/heads/main/imagenes/funcion%20de%20activacion.jpeg)
+
 ### Fórmula
-$$
-f(z) = 
-\begin{cases} 
-1 & \text{si } z \ge 0 \\ 
-0 & \text{si } z < 0 
-\end{cases}
-$$
+
+![step](https://raw.githubusercontent.com/adiacla/Apuntes-Ciencia-de-Datos/refs/heads/main/imagenes/step.png)
+
 
 * **Objetivo:** Convertir la suma ponderada en una decisión binaria estricta ($0$ o $1$). Funciona como un interruptor de encendido/apagado.
 * **Cuándo se usa:**
